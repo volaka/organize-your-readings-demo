@@ -1,0 +1,189 @@
+.App {
+  background-color: #282c34;
+  min-height: 100vh;
+}
+
+.App-header {
+  box-sizing: border-box;
+  margin: 0;
+  min-height: 15vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+.Input-field {
+  width: 25vw;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.Info-pane {
+  box-sizing: border-box;
+  width: 80vw;
+  height: 85vh;
+}
+
+.Left-pane {
+  box-sizing: border-box;
+  border-right: 2px solid white;
+  width: 20vw;
+  height: 85vh;
+}
+
+.Left-pane-card {
+  border-radius: 0;
+  background-color: #282c34;
+  color: white;
+}
+
+.Left-pane-icon {
+  float: right;
+}
+
+.ui.vertical.menu {
+  background-color: #282c34;
+  width: 100%;
+}
+
+.ui.accordion.menu .item .title {
+  color: whitesmoke;
+}
+
+.ui.accordion:not(.styled) .title ~ .content:not(.ui):last-child {
+  color: whitesmoke;
+  margin-left: 8px;
+  margin-top: 8px;
+}
+
+.View-container {
+  display: flex;
+}
+
+.Metadata-pane {
+  box-sizing: border-box;
+  border-right: 1px solid white;
+  width: 30vw;
+  height: 85vh;
+}
+
+.Metadata-info-pane {
+  padding: 10px;
+  color: white;
+}
+
+.Metadata-title {
+  font-size: 2em;
+  font-weight: bold;
+  line-height: 1.5em;
+  text-align: center;
+  padding: 1em 0;
+  border-bottom: 2px dashed white;
+}
+
+.Metadata-URL {
+  font-style: italic;
+  font-size: 0.75em;
+  color: #7d82a9;
+}
+
+.Metadata-writer {
+  margin: 10px 0;
+}
+
+.Metadata-subinfo-item {
+  padding: 2px 5px;
+  font-size: 0.75em;
+  color: black;
+  line-height: 1.25em;
+  border: 1px solid grey;
+  border-radius: 8px;
+  background-color: darkgrey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  order: 1;
+  min-width: 80px;
+}
+
+.Metadata-language {
+  margin: 10px 0;
+  font-size: 0.75em;
+  color: whitesmoke;
+  line-height: 1.25em;
+}
+
+.Metadata-subinfo {
+  border-bottom: 1px solid white;
+  display: flex;
+  padding: 10px 0;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.Keywords-container {
+  display: flex;
+  border-bottom: 1px dotted white;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+
+.Keywords {
+  font-size: 0.80em;
+  border: 1px solid blue;
+  padding: 2px 5px;
+  border-radius: 8px;
+  background: lightblue;
+  color: darkblue;
+}
+
+.Keywords-title {
+  padding: 10px;
+  margin: 0;
+  color: ghostwhite;
+}
+
+.Category-pills {
+  display: flex;
+  margin-bottom: 8px;
+}
+
+.Category {
+  color: white;
+  font-size: 0.80em;
+  border: 1px solid blue;
+  padding: 2px 5px;
+  border-radius: 8px;
+  background: darkgreen;
+}
+
+.HTML-pane {
+  width: 50vw;
+  text-align: center;
+  color: white;
+}
+
+.Categories-container {
+  padding: 10px;
+}
+
+.Concept-container {
+  padding-bottom: 20px;
+  margin: 10px;
+  border-bottom: 1px dashed whitesmoke;
+}
+
+.Concept {
+  color: white;
+  font-size: 14px;
+  padding: 10px;
+  width: 50vw;
+  border-radius: 8px;
+  background-color: #464d5d;
+  border: 1px solid blue;
+}
