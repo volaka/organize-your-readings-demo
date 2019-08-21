@@ -10,7 +10,7 @@ export const addReading = url => dispatch => {
   dispatch({ type: ADD_READINGS_REQUEST });
   axios({
     method: 'GET',
-    url: 'http://localhost:8080',
+    url: process.env.REACT_APP_BACKEND_URL,
     params: {
       url
     }
