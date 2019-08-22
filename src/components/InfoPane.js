@@ -1,9 +1,7 @@
 import React, {Component} from 'react';
-import PropTypes from 'prop-types';
 import {connect} from "react-redux";
 import _ from 'lodash';
 import {Popup, Progress} from "semantic-ui-react";
-import renderHTML from 'react-render-html'
 class InfoPane extends Component {
 
   render() {
